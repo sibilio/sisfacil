@@ -1,0 +1,312 @@
+html{
+	font-family: arial, helvetica, serif;
+}
+
+body {
+  min-height: 2000px;
+  padding-top: 40px;
+}
+
+/* Regra utilizadas para estilizar as tabelas da aplicação*/
+
+tr:nth-child(odd) {
+    background-color:#FFF5EE; 
+}
+
+tr:nth-child(even) {
+    background-color:#EEE5DE; 
+}
+
+th{
+	background-color:#8B8682;
+	color: white;
+	text-align: center;
+}
+
+tr:hover{
+	background-color: #8B795E;
+	color: white;
+}
+
+/* Regra utilizada para a tabela de ordens de serviço */
+#ordens{
+	margin-top: 20px;
+	width: 100%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #CCCCCC;
+}
+
+#ordens th{
+	background-color: #003F5E;
+	color: white;
+	height: 50px;
+	font-size: 25px;
+	text-align: center;
+}
+
+#ordens .azul{
+	background-color: #37B1D6;
+	color: white;
+	font-weight: bold;
+	height: 50px;
+	font-size: 18px;
+}
+
+#ordens .fechado{
+	background-color: #d67171;
+	color: white;
+	font-weight: bold;
+	height: 50px;
+	font-size: 18px;
+}
+
+#ordens .branco{
+	background-color: white;
+	color: black;
+	border-style: solid;
+	border-color: #CCCCCC;
+	border-width: 1px;
+	width: 100%;
+}
+
+#ordens .branco td{
+	padding-left: 15px;
+}
+
+#ordens em{
+	font-style: normal;
+	font-weight: bold;
+
+}
+
+.texto-tag{
+	position: relative;
+	font-weight: bold;
+	font-size: 25px;
+	top:-5px;
+}
+
+.finalizado{
+	background-color: #339934;
+	color: white;
+	border-style: solid;;
+	border-color: #004834;
+	border-width: 2px;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+	margin:auto;
+	border-radius: 10px;
+}
+
+.em-orcamento{
+	background-color: #FFDE00;
+	color: black;
+	border-style: solid;;
+	border-color: #FCB134;
+	border-width: 2px;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	padding-top: 12px;
+	margin:auto;
+	border-radius: 10px;
+}
+
+.garantia{
+	background-color: #EE3A43;
+	color: white;
+	border-style: solid;;
+	border-color: #C51230;
+	border-width: 2px;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	padding-top: 5px;
+	margin:auto;
+	border-radius: 10px;
+}
+
+.nao-iniciado{
+	background-color: #A8A9AD;
+	color: white;
+	border-style: solid;;
+	border-color: #7F8084;
+	border-width: 2px;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	padding-top: 12px;
+	margin:auto;
+	border-radius: 10px;
+}
+
+.aguarda-peca{
+	background-color: #F7AABE;
+	color: black;
+	border-style: solid;
+	border-color: #EC429A;
+	border-width: 2px;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+	margin:auto;
+	border-radius: 10px;
+}
+
+
+/*************************************************************/
+
+/*** Usado no wirzad de formulários **************************/
+#wizard-form{
+
+}
+
+#wizard-form .passo-nao-realizado{
+	background-color: #F6F6F6;
+	color: #B0B1B3;
+	border-color: #B0B1B3;
+	text-align: center;
+	margin: auto;
+}
+
+#wizard-form .passo-atual{
+	background-color: #009DDC;
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-bottom-style: solid;
+	border-bottom-width: 10px;
+	border-bottom-color: #006f9b;
+}
+
+#wizard-form .passo-realizado{
+	background-color: #4BA24B;
+	color: white;
+	border-color: #00713D;
+	text-align: center;
+	margin: auto;
+}
+
+#wizard-form .passo{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#wizard-form .descricao-passo{
+	font-size: 16px;
+	font-weight: bold;
+}
+/*************************************************************/
+
+
+.elemento-responsivo{
+	margin-top: 10px;
+	width: 100%;
+}
+
+.label-simples{
+	text-align: right;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.input-text-simples{
+	text-align: left;
+	font-size: 16px;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: #CCCCCC;
+}
+
+.linha{
+  border-bottom-style: solid;
+  border-color: #EBECE6;
+  border-width: 1px;
+  margin: 18px 0;
+}
+
+.enunciado-listagem{
+	font-weight: bold;
+}
+
+.controles-abaixo-enunciado{
+	padding-top: 10px;
+}
+
+.h3-destaque{
+	font-weight: bold;
+}
+
+.texto-botao-radio{
+	position: relative;
+	font-weight: bold;
+	font-style: normal;
+	top: -1px;
+	margin-left: 4px;
+}
+
+input[type="radio"]{
+	position: relative;
+	margin-left: 10px;	
+}
+
+input[type="radio"]+label{
+	position: relative;
+	font-weight: bold;
+	font-style: normal;
+	top: -1px;
+	margin-left: 4px;
+}
+
+.titulo{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/**************************************************************
+*
+* Essas classes são usadas somente para identificar o elemento
+* na programação java script pois o navegador firefox muitas
+* vezes não reconhece eventos como onClick ou o evento click
+* usando o jQuery com o id do elemento. Ex.: $('#botao').click();
+* O comando acima é instável no firefox por isso as classes abaixo
+* foram criadas usando-se $('.botao').click() o funcionamento é
+* normal nos principais browser.
+*
+***************************************************************/
+.botao-checar-cnpj{
+
+}
+
+.tipo_parceiro{
+	
+}
+
+.botaoExcluir{
+
+}
+
+.botaoEditar{
+
+}
+
+.botaoGravar{
+
+}
+
+.botaoAdicionar{
+
+}
+
+.botaoCancelar{
+
+}
+
+.botaoConfirmar{
+
+}

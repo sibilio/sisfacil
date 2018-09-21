@@ -1,0 +1,89 @@
+body{
+	font-family:"DejaVu Serif","MS Trebuchet","ITC Avant Garde Gothic","MS Arial","MS Verdana","Univers","Futura","ITC Stone Sans","Gill Sans","Akzidenz Grotesk",Helvetica;
+}
+
+.relatorio-A4{
+	position: absolute;
+	width: 1000px;
+	height: 1400px;
+	/*border-style: solid;*/
+	border-width: 1px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.cabecalho-esquerda{
+	float: left;
+	width:100px;
+}
+
+.cabecalho-centro{
+	position: absolute;
+	left: 300px;
+	top: 28px;
+}
+
+.cabecalho-direita{
+	position: absolute;
+	left: 900px;
+	top: 10px;
+	text-align: right;
+}
+
+.texto-no-centro{
+	text-align: center;
+}
+
+.logo-relatorio{
+	position: absolute;
+	top:35px;
+	left:20px;
+	width: 190px;
+	height: 95px;
+	margin-left: 10px;
+}
+
+.linha-cabecalho{
+	position: absolute;
+	top:145px;
+	left: 28px;
+	width: 1000px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: black;
+}
+
+.rodape{
+	position: absolute;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: black;
+	top:1370px;
+	height: 40px;
+	margin-left: 20px;
+	width: 1000px;
+	text-align: center;
+}
+
+.col-1{
+	margin-left:15px;
+	display: inline-block;
+}
+
+.texto-negrito{
+	font-weight: bold;
+	margin-right: 7px;
+}
+
+.label-re{
+	float: left;
+	width: 100px;
+	font-weight: bold;
+	text-align: right;
+}
+
+.text-box-re{
+	float:left;
+	margin-left:10px;
+	margin-right: 20px;
+}

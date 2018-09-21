@@ -1,0 +1,7 @@
+1) No ParceiroController não somente o método realizarCadastro() utiliza o campo idEmpresa, todas as funcções do controler devem ser modificadas para que ele acesse somente os dados da empresa a qual o usuário pertence. Do jeito que está todos tem acesso a todos através de uma pesquisa.
+
+2) Atualmente no campo cnpj ao colocarmos um cnpj válido ele libera os campos, se modificarmos o cnpj por um inválido os campos continuam liberados pois não é necessário clicar no botão verificar.
+
+3) Criar validação para tipo de aparelho
+
+4) Criar validação para tipo de serviço
